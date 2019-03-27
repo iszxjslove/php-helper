@@ -1,0 +1,19 @@
+{
+    "name": "iszxjslove/php-helper",
+    "description": "The php helper package",
+    "authors": [
+        {
+            "name": "iszxjslove",
+            "email": "228762287@qq.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.4.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\helper\\": "src/"
+        }
+    }
+}
