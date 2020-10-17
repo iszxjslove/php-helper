@@ -3,7 +3,7 @@
     "description": "PHP 助手类合集",
     "type": "library",
     "require": {
-        "php": "^7.2"
+        "php": ">=5.6"
     },
     "license": "Apache",
     "authors": [

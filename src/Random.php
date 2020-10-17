@@ -118,7 +118,7 @@ class Random
                 $max_exp = $exp;
             }
         }
-        $pow_exp = pow(10, $max_exp);
+        $pow_exp = 10 ** $max_exp;
         if ($pow_exp > 1) {
             reset($ps);
             foreach ($ps as $key => $value) {
