@@ -1,1 +1,4 @@
-！.gitignore
+/.idea
+/.vscode
+/vendor
+*.log
