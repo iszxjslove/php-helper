@@ -3,7 +3,8 @@
     "description": "PHP 助手类合集",
     "type": "library",
     "require": {
-        "php": ">=7.1"
+        "php": ">=7.1",
+        "overtrue/pinyin": "^4.0"
     },
     "license": "Apache-2.0",
     "authors": [
