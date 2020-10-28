@@ -55,12 +55,12 @@ class Bank
     }
 
     /**
-     * 首字母
+     * 拼音首字母
      * @param string $delimiter
      * @param int $option
      * @return string
      */
-    public function abbr($delimiter = '', $option = PINYIN_UMLAUT_V): string
+    public function first($delimiter = '', $option = PINYIN_UMLAUT_V): string
     {
         return $this->pinyin->abbr($this->name, $delimiter, $option);
     }
@@ -74,6 +74,15 @@ class Bank
     public function py($delimiter = '', $option = PINYIN_UMLAUT_V): string
     {
         return $this->pinyin->permalink($this->name, $delimiter, $option);
+    }
+
+    /**
+     * 简称缩写
+     * @return string
+     */
+    public function abbr(): string
+    {
+        return '';
     }
 
     /**
